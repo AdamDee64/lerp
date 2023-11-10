@@ -15,5 +15,7 @@ Mid-points - Creates a series of equally spaced midpoints between two points. Bo
 
 <picture>
     <img alt="Basic" src="./img/lerp00.png"> <br>
+</picture>
+<picture>
     <img alt="Midpoionts" src="./img/lerp01.png"> <br>
 </picture>

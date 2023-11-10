@@ -20,11 +20,6 @@ Clamp :: proc(value : f32, min : f32, max : f32) -> f32 {
     return value
 }
 
-UpdateTextF :: proc(text : ^cstring, value : f32) {
-    // SAFETY HELMETS OFF!!
-    text^ = fmt.ctprintf("%f", value)
-}
-
 main :: proc() {
     
     width   :: 800
